@@ -28,21 +28,21 @@ WORKDIR $CATALINA_HOME
 ENV OPENMAINT_DEFAULT_LANG=en
 
 ENV DB_USER=postgres \
-	DB_PASS=test \	
+	DB_PASS=Kronny009 \	
 	DB_HOST=postgres \
 	DB_PORT=5432 \
 	DB_NAME=cmdbuild
 
 ENV BIM_ACTIVE=false \
-	BIM_URL=http://bimserver:8080/bimserver \
+	BIM_URL=http://localhost:8080/bimserver \
 	BIM_USER=admin@example.org \
-	BIM_PASSWORD=bimserver
+	BIM_PASSWORD=Kronny009
 
 ENV GIS_ENABLED=false \
-	GEOSERVER_ON_OFF=off \
-	GEOSERVER_URL=http://geoserver:8080/geoserver \
+	GEOSERVER_ON_OFF=on \
+	GEOSERVER_URL=http://localhost:8080/geoserver \
 	GEOSERVER_USER=admin \
-	GEOSERVER_PASSWORD=geoserver \
+	GEOSERVER_PASSWORD=Kronny009 \
 	GEOSERVER_WORKSPACE=cmdbuild
 
 ## }
